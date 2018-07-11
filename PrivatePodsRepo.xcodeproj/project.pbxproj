@@ -13,6 +13,7 @@
 		CC6596D520F5A52300A8D991 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC6596D420F5A52300A8D991 /* Assets.xcassets */; };
 		CC6596D820F5A52300A8D991 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC6596D620F5A52300A8D991 /* LaunchScreen.storyboard */; };
 		CC6596DB20F5A52300A8D991 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6596DA20F5A52300A8D991 /* main.m */; };
+		CC6596E420F5A59400A8D991 /* GoodLuckMan.m in Sources */ = {isa = PBXBuildFile; fileRef = CC6596E320F5A59400A8D991 /* GoodLuckMan.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		CC6596D720F5A52300A8D991 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC6596D920F5A52300A8D991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC6596DA20F5A52300A8D991 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC6596E220F5A59400A8D991 /* GoodLuckMan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GoodLuckMan.h; sourceTree = "<group>"; };
+		CC6596E320F5A59400A8D991 /* GoodLuckMan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GoodLuckMan.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		CC6596CA20F5A52100A8D991 /* PrivatePodsRepo */ = {
 			isa = PBXGroup;
 			children = (
+				CC6596E120F5A58400A8D991 /* upload */,
 				CC6596CB20F5A52100A8D991 /* AppDelegate.h */,
 				CC6596CC20F5A52100A8D991 /* AppDelegate.m */,
 				CC6596CE20F5A52100A8D991 /* ViewController.h */,
@@ -69,6 +73,15 @@
 				CC6596DA20F5A52300A8D991 /* main.m */,
 			);
 			path = PrivatePodsRepo;
+			sourceTree = "<group>";
+		};
+		CC6596E120F5A58400A8D991 /* upload */ = {
+			isa = PBXGroup;
+			children = (
+				CC6596E220F5A59400A8D991 /* GoodLuckMan.h */,
+				CC6596E320F5A59400A8D991 /* GoodLuckMan.m */,
+			);
+			path = upload;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC6596E420F5A59400A8D991 /* GoodLuckMan.m in Sources */,
 				CC6596D020F5A52100A8D991 /* ViewController.m in Sources */,
 				CC6596DB20F5A52300A8D991 /* main.m in Sources */,
 				CC6596CD20F5A52100A8D991 /* AppDelegate.m in Sources */,
